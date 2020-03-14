@@ -1,8 +1,9 @@
+import { AlertifyService } from './Services/Alertify.service';
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
 @NgModule({
   imports: [CommonModule],
-  declarations: []
+  declarations: [],
 })
-export class SharedModule {}
+export class SharedModule { }
