@@ -1,3 +1,5 @@
+import { RouterModule } from '@angular/router';
+import { AlertifyService } from './../Shared/Services/Alertify.service';
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -8,8 +10,10 @@ import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
-    CommonModule, FormsModule
+    CommonModule, FormsModule,
+    RouterModule
   ],
-  declarations: [AuthComponent, LoginComponent, RegistrationComponent]
+  declarations: [AuthComponent, LoginComponent, RegistrationComponent],
+
 })
 export class AuthModule { }
